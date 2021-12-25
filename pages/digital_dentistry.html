@@ -4,40 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="../css/style.css" rel="stylesheet" />
+    <link href="../css/digital_dentistry.css" rel="stylesheet" />
     <title>Digital Dentistry</title>
-    <style>
-      .about_video {
-        display: flex;
-        justify-content: left;
-        height: 400px;
-      }
-
-      .digital-dent_text_container img {
-        align-content: center;
-      }
-
-      #general2 {
-        margin-bottom: 50px;
-      }
-
-      #general2 p {
-        text-align: center;
-        font-size: 20px;
-        line-height: 38px;
-        padding: 20px;
-      }
-
-      .digital-dent_image_container {
-        display: flex;
-        justify-content: center;
-      }
-    </style>
   </head>
   <body>
+    <!--NAVIGATION BAR-->
     <nav id="nav">
       <div class="nav_logo">
-        <img src="../images/Logo.png" alt="Dental Laboratory" height="80px" />
+        <a href="../index.html">
+          <img src="../images/Logo.png" alt="Dental Laboratory" height="80px" />
+        </a>
       </div>
+      <!--nav_logo ends-->
       <div class="nav_menu">
         <ul>
           <li><a href="../index.html">Home</a></li>
@@ -50,7 +28,10 @@
           </li>
         </ul>
       </div>
+      <!--nav_menu ends-->
     </nav>
+
+    <!--SLIDER IMAGE-->
     <div id="slider">
       <img
         src="../images/digital_dentistry/digital_dentistry.jpeg"
@@ -58,6 +39,9 @@
         width="100%"
       />
     </div>
+    <!--slider ends-->
+
+    <!--GENERAL INFORMATION-->
     <section id="general">
       <h1 class="section_header">DIGITAL DENTISTRY SERVICES</h1>
       <p>
@@ -91,12 +75,15 @@
         technology to support the identification of cavities and cracks.
       </p>
     </section>
+
+    <!--GENERAL INFORMATION 2-->
     <section id="general2">
       <div class="about_video">
         <video width="100%" muted autoplay loop>
           <source src="../media/digital_dentistry.mp4" type="video/mp4" />
         </video>
       </div>
+      <!--nav_menu ends-->
       <p>
         Even our x-rays are improved! The x-rays that we take with our Dexis
         Digital X-Ray Sensor are
@@ -123,7 +110,8 @@
             height="300px"
           />
         </div>
-        <div class="digital-dent_text_container">
+        <!--digital-dent_image_container div ends-->
+        <div class="digital-dent_image_container">
           <p>
             Another digital dentistry service is our digital camera
             <br />
@@ -161,9 +149,13 @@
             care—now and in the future.
           </p>
         </div>
+        <!--digital-dent_image_container div ends-->
       </div>
+      <!--digital-dent div ends-->
     </section>
     <hr />
+
+    <!--FOOTER MENU-->
     <footer>
       <div class="about">
         <h4>About</h4>
@@ -179,6 +171,7 @@
           around the country.
         </p>
       </div>
+      <!--about div ends-->
       <div class="footer_menu">
         <h4>Contact Us</h4>
         <ul>
@@ -191,6 +184,7 @@
           </li>
         </ul>
       </div>
+      <!--footer_menu div ends-->
       <div class="subscribe">
         <h4>Subscribe</h4>
         <form action="#">
@@ -202,6 +196,7 @@
               required
             />
           </div>
+          <!--footer_input div ends-->
           <div class="footer_input">
             <input
               class="footer_input_button"
@@ -209,8 +204,10 @@
               value="Subscribe"
             />
           </div>
+          <!--footer_input div ends-->
         </form>
       </div>
+      <!--subscribe div ends-->
     </footer>
     <div class="copyright">&copy; 2021 Dental Laboratory</div>
   </body>
